@@ -1,0 +1,12 @@
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+

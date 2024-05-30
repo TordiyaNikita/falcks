@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 50px;
+    width: auto;
+    background-color: #292929;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+}
+.footer__block_2{
+    display: flex;
+    gap: 30px;
+}
+.footer span{
+    color: white;
+}

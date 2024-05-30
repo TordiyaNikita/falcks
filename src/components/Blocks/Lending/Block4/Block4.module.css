@@ -1,0 +1,26 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Расстояние между блоками с отзывами */
+}
+.main h2{
+    text-align: center;
+}
+.review {
+    background-color: #c0dbe0; /* Цвет фона блока с отзывом */
+    padding: 20px; /* Отступы внутри блока с отзывом */
+    border-radius: 8px; /* Закругление углов блока с отзывом */
+}
+
+.author {
+    font-weight: bold; /* Жирный шрифт для имени автора */
+    margin-bottom: 10px; /* Отступ снизу для имени автора */
+    color: #333; /* Цвет текста имени автора */
+}
+
+.content {
+    font-size: 16px; /* Размер шрифта для текста отзыва */
+    line-height: 1.5; /* Межстрочный интервал */
+    color: #666; /* Цвет текста отзыва */
+}

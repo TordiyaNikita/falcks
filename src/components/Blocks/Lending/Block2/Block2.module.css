@@ -1,0 +1,37 @@
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 500px;
+}
+.main p,
+.main h2,
+.main li,
+.main h3{
+    color: black;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+    line-height: 40px;
+}
+.left{
+    border-radius: 180px;
+    width: 50%;
+    background-color: #cce2c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.right{
+    border-radius: 180px;
+    width: 40%;
+    background-color: #cce2c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+
+.header__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .container__right{
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+  }
+  .container__right ul{
+  display: flex;
+  gap: 50px;
+  }
+.ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.ul a{
+    text-decoration: none;
+}
